@@ -1,0 +1,38 @@
+画面下にある横スクロールするメニューの実装方法について
+https://sppsolcojp.hatenadiary.org/entry/20120302/1330664747
+Android LinearLayout ウィジェットを画面中央に配置する
+https://knkomko.hatenablog.com/entry/2020/07/26/152509
+Java8のラムダ式を理解する
+https://qiita.com/sano1202/items/64593e8e981e8d6439d3
+Javaラムダ式についてまとめてみた
+https://qiita.com/kenRp01/items/4045a7925340088bd7e3
+フラグメントを切り替えてみよう ~ Android Studioの使い方解説【図解、サンプルコード付き】~
+https://zerokara-app.com/740/
+Android：CursorのAPIまとめ
+https://yuki312.blogspot.com/2012/03/androidcursorapi.html
+日付選択ダイアログ/Android(Java)
+https://hidepro.net/wp/2020/04/01/date-selection-dialog/
+日付選択ダイアログ(DatePickerDialog)のサンプルソースと解説(Android)
+http://web-dou.com/android/datepickerdialog.html
+Fragment
+https://developer.android.com/reference/androidx/fragment/app/Fragment.html?_gl=1*143jgwb*_up*MQ..*_ga*NjY3OTIyOTU3LjE3MzMzODc4OTE.*_ga_6HH9YJMN9M*MTczMzM4Nzg5MC4xLjAuMTczMzM4Nzg5MC4wLjAuMTMyNzY1NjE5NQ..#getLoaderManager()
+ダイアログ
+https://developer.android.com/develop/ui/views/components/dialogs?hl=ja
+DialogFragment を使用してダイアログを表示する
+https://developer.android.com/guide/fragments/dialogs?hl=ja
+ダイアログを表示してみよう ~ Android Studio の使い方解説【図解、サンプルコード付き】~
+https://zerokara-app.com/472/
+ダイアログからイベントを渡そう ~Android Studio の使い方解説【図解、サンプルコード付き】~
+https://zerokara-app.com/485/
+android AlertDialogで選択した後，呼び出し元とは別のアクティビティに遷移したい
+https://teratail.com/questions/208910
+ダイアログのボタンで画面遷移したい
+https://teratail.com/questions/360958
+Activityクラス以外から呼ぶcontextの取得方法統一について
+https://teratail.com/questions/207427
+【Android】DialogFragment に値を渡す方法
+https://codeforfun.jp/android-studio-how-to-pass-values-to-dialog-fragment/
+【Android Studio】ダイアログを表示する方法 ① 基本型
+https://codeforfun.jp/how-to-create-dialog-series-basic-java/
+Android getParentFragment() returns null in ViewPager within a Fragment
+https://stackoverflow.com/questions/40206117/android-getparentfragment-returns-null-in-viewpager-within-a-fragment/51667174
