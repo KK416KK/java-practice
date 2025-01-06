@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">yest1</string>
+    <string name="bt1">HOME</string>
+    <string name="bt2">DATA</string>
+    <string name="bt3">ITEM LIST</string>
+    <string-array name="kanjolist">
+        <item>現金・預金</item>
+        <item>売掛金</item>
+        <item>受取手形</item>
+        <item>有価証券</item>
+        <item>在庫</item>
+        <item>前払費用</item>
+        <item>固定資産</item>
+        <item>減価償却資産</item>
+        <item>貸付金</item>
+        <item>敷金・保証金</item>
+        <item>その他資産</item>
+        <item>買掛金</item>
+        <item>支払手形</item>
+        <item>借入金</item>
+        <item>未払費用</item>
+        <item>前受収益</item>
+        <item>預り金</item>
+        <item>未払い税金</item>
+        <item>その他負債</item>
+        <item>資本金</item>
+        <item>資本剰余金</item>
+        <item>利益剰余金</item>
+        <item>自己株式</item>
+        <item>その他純資産</item>
+        <item>売上高</item>
+        <item>営業外収益</item>
+        <item>営業利益</item>
+        <item>その他収益</item>
+        <item>仕入高</item>
+        <item>給与・人件費</item>
+        <item>広告宣伝費</item>
+        <item>地代家賃</item>
+        <item>支払利息</item>
+        <item>減価償却費</item>
+        <item>旅費交通費</item>
+        <item>租税公課</item>
+        <item>雑費</item>
+        <item>販売費・一般管理費</item>
+        <item>その他費用</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

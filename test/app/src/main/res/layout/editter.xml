@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "input"
+        android:padding="20dp"
+        android:background="#31FF04"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日付を入力"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品名を入力"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edhinmoku2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金額を入力"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edmoney2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number"/>
+
+        <RadioGroup
+            android:id="@+id/rdzei2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+            <RadioButton
+                android:id="@+id/xxten"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="消費税10％"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/xxeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="軽減税率"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/xxzero"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="無税"
+                android:layout_weight="1"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="買った場所を入力"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edcompany2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="text"/>
+
+        <Spinner
+            android:id="@+id/spinnerkan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:entries="@array/kanjolist"/>
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INPUT"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INPUT"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
